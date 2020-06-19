@@ -1,6 +1,6 @@
 <!-- This head sheet is based on the code from the SUHC website walking.susu.org. Author: Thomas Edwards, 2020. Edited for this site by Matt Clark, June 2020 -->
 <!-- Font Awesome icons loaded for general use (inc. Facebook and Instagram icons in navbar) -->
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 <!-- This part loads the Bootstrap CSS files, hosted elsewhere. This is key for almost everything, be careful. Key for mobile functionality -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -25,10 +25,10 @@
     href="https://fonts.googleapis.com/css?family=Domine&display=swa">
 <style>
   body {
-    font-family: 'Domine', serif;
+    font-family: 'Whipsmart', serif;
   }
   p {
-    font-family: 'Domine', serif;
+    font-family: 'Whipsmart', serif;
   }
   a {
     color:rgb(63,3,35);
