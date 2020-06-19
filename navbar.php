@@ -36,7 +36,12 @@
 		<i class="fab fa-github" style="font-size:30px"></i>
 		</a>
             </li>
+			<li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/matt-p-clark/">
+		<i class="fab fa-linkedin" style="font-size:30px"></i>
+		</a>
+            </li>
+		
         </ul>
-    </div>    
-  </div>
+    </div>  
 </nav>

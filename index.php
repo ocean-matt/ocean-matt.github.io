@@ -26,73 +26,32 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" style="font-size:30px" href="#"><b>Matt Clark</b></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" style="font-size:20px" href="index.html">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          <li class="nav-item">
-        <li class="nav-item">
-        <a class="nav-link" style="font-size:20px" href="research.php">Research</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" style="font-size:20px" href="personal.php">Personal</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" style="font-size:20px" href="contact.php">CV & Contact</a>
-      </li>
-          </li>
-        </ul>
-      </div>
-    </div>
-	<div class="navbar-collapse collapse">
-      <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.twitter.com/Ocean_MattC/">
-		<i class="fab fa-twitter" style="font-size:30px"></i>
-		</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com/ocean-matt">
-		<i class="fab fa-github" style="font-size:30px"></i>
-		</a>
-            </li>
-			<li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/matt-p-clark/">
-		<i class="fab fa-linkedin" style="font-size:30px"></i>
-		</a>
-            </li>
-		
-        </ul>
-    </div>    
-  </nav>
-
+  <?php
+	include("navbar.php");
+?>
+ 
   <!-- Page Content -->
   <div class="container">
 
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4">
       <h1 class="display-3">Home - Matt Clark</h1>
-      <p class="lead">My current research focuses on the changing North Atlantic Ocean and its effects within European shelf seas. 
+	  <h2> Oceanography PhD Student, University of Southampton, National Oceanography Centre Southampton. </h2>
+      <p class="lead">
+	  My current research focuses on the changing North Atlantic Ocean and its effects within European shelf seas. 
 	  Using model outputs and observational datasets, I will analyse how the shelf seas are driven by basin-scale change over different timescales. 
 	  There will be a strong emphasis on quantifying changes in temperature and salinity structure in the North Sea. 
 	  I am excited to be taking an interdisciplinary approach to this: I am interested in how both physical and chemical changes to the water structure alter shelf sea ecosystems and productivity. 
 	  I will also be using measurements of plankton biomass from the Continuous Plankton Recorder (CPR) survey to assess any possible relationships.
-	  <br><br>My PhD research follows on from my MSci final year research project, which quantified a cold temperature anomaly in the North Atlantic Subpolar Gyre and its effects on transport towards and along the European shelf edge.</p>
+	  <br><br>My PhD research follows on from my MSci final year research project, which quantified a cold temperature anomaly in the North Atlantic Subpolar Gyre and its effects on transport towards and along the European shelf edge.
+	  </p>
       <a href="https://www.southampton.ac.uk/oes/postgraduate/research_students/mpc2g13.page" class="btn btn-primary btn-lg">University web profile</a>
     </header>
 
 	<!-- Alerts -->
 	<div class="container">
 	  <div class="alert alert-danger">
-		<b>Warning:</b> This page is under construction. Test alert-danger.
+		<b>Warning:</b> This website is under construction.
 	  </div>
 	  <div class="alert alert-info">
 		alert-info banner test 
@@ -120,10 +79,10 @@
           <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
             <h4 class="card-title">Publications</h4>
-            <p class="card-text">There are no publications so far</p>
+            <p class="card-text">I am currently writing my first paper. Details released soon.</p>
           </div>
           <div class="card-footer">
-            <a href="404.html" class="btn btn-outline-primary">Find Out More</a>
+            <a href="#" class="btn btn-outline-primary">Content coming soon...</a>
           </div>
         </div>
       </div>
@@ -132,8 +91,8 @@
         <div class="card h-100">
           <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">CV & Contact details</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            <h4 class="card-title">Public outreach</h4>
+            <p class="card-text">See how I've presented science to the public</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Find Out More</a>
@@ -141,6 +100,18 @@
         </div>
       </div>
 
+	  <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <div class="card-body">
+            <h4 class="card-title">CV & Contact details</h4>
+            <p class="card-text">My full details can be found on LinkedIn.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More</a>
+          </div>
+        </div>
+      </div>
       
     </div>
     <!-- /.row -->
@@ -149,12 +120,9 @@
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-2 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Matt Clark <script>document.write( new Date().getFullYear() );</script>. Views are my own.</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+  <?php
+	include("footer.php");
+?>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
