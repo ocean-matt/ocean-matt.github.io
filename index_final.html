@@ -7,8 +7,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Personal Website">
+  <meta name="author" content="Matt Clark">
 
   <title>Matt Clark - Home</title>
 
@@ -21,58 +21,23 @@
   <!-- Font Awesome icons loaded for general use (inc. Facebook and Instagram icons in navbar) -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
+  <!-- JavaScript block for Navbar construction -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 </head>
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" style="font-size:30px" href="#"><b>Matt Clark</b></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" style="font-size:20px" href="index.html">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          <li class="nav-item">
-        <li class="nav-item">
-        <a class="nav-link" style="font-size:20px" href="research.php">Research</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" style="font-size:20px" href="personal.php">Personal</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" style="font-size:20px" href="contact.php">CV & Contact</a>
-      </li>
-          </li>
-        </ul>
-      </div>
-    </div>
-	<div class="navbar-collapse collapse">
-      <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.twitter.com/Ocean_MattC/">
-		<i class="fab fa-twitter" style="font-size:30px"></i>
-		</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com/ocean-matt">
-		<i class="fab fa-github" style="font-size:30px"></i>
-		</a>
-            </li>
-			<li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/matt-p-clark/">
-		<i class="fab fa-linkedin" style="font-size:30px"></i>
-		</a>
-            </li>
-		
-        </ul>
-    </div>    
-  </nav>
+  <!-- Navigation bar -->
+  <div id="nav-placeholder">
+  </div>
+  
+  <script>
+	$(function(){
+	  $("#nav-placeholder").load("nav.html");
+	});
+	</script>
+  <!-- End of Navigation bar -->
 
   <!-- Page Content -->
   <div class="container">
@@ -95,7 +60,7 @@
 	<!-- Alerts -->
 	<div class="container">
 	  <div class="alert alert-danger">
-		<b>Warning:</b> This website is under construction.
+		<b>Warning:</b> This website is still under construction. Not all links may work and pages may be blank.
 	  </div>
 	  <div class="alert alert-info">
 		alert-info banner test 
