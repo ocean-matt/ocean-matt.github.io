@@ -33,7 +33,7 @@ font-family: 'Open Sans', sans-serif;
   }
 
 .carousel-item {
-  height: 65vh;
+  height: 85vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
