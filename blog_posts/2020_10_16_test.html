@@ -83,57 +83,25 @@
 		    </div> <!-- END of post column -->
 
 
-
-
-
-
-
-
-
-
 		  <!-- Sidebar Widgets Column -->
 		  <div class="col-md-4">
 
-				<!-- Featured post -->
-				<div class="card my-4">
-				  <h4 class="card-header">Featured post</h5>
-				  <img class="card-img-top" src="../blog_images/challenger_wave/IMG06.jpg" alt="Dolphins">
-				  <div class="card-body">
-					<p class="lead"> The Last Ship </p>
-					<p>An account of my first research cruise, at the same time as my first pandemic</p>
-					<a href="../blog.html#2020-06-16" class="btn btn-primary">Read more...</a>
-				  </div>
+				<div id="sidebar-placeholder">
 				</div>
-			
-				<!-- Posts by date -->
-				<div class="card my-4">
-				  <h4 class="card-header">Posts (newest to oldest)</h5>
-				  <div class="card-body">
-
-						<ul class="list mb-0">
-						  <li>
-							<a href="../blog.html#2020-06-16">The Last Ship (16/06/2020)</a>
-						  </li>
-						  <li>
-							<a href="../blog.html#2020-06-06">Moorings: The workhorse of the RAPID project (06/06/2020)</a>
-						  </li>
-						  <li>
-							<a href="../blog.html#2020-06-01">First blog post (01/06/2020)</a>
-						  </li>
-						</ul>
-
-				  </div>
-				</div>
-
-			
+				<script>
+				$(function(){
+				  $("#postlist-placeholder").load("posts_by_date.html");
+				});
+				</script>
+				<!-- End of sidebar widget -->
 
 		  </div> <!-- END sidebar widget column -->
 
 		</div> <!-- /.row -->
-		
 
   </div> <!-- /.container -->
-  
+
+
   <!-- Footer -->
 	<footer class="py-2 bg-dark">
     <div class="container">
