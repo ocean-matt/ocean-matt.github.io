@@ -9,33 +9,58 @@
 
 <url>
   <loc>https://ocean-matt.github.io/</loc>
-  <lastmod>2020-09-17T17:04:45+00:00</lastmod>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ocean-matt.github.io/research.html</loc>
-  <lastmod>2020-09-17T17:04:45+00:00</lastmod>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ocean-matt.github.io/personal.html</loc>
-  <lastmod>2020-09-17T17:04:45+00:00</lastmod>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ocean-matt.github.io/blog.html</loc>
-  <lastmod>2020-09-17T17:04:45+00:00</lastmod>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ocean-matt.github.io/contact.html</loc>
-  <lastmod>2020-09-17T17:04:45+00:00</lastmod>
-  <priority>0.70</priority>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ocean-matt.github.io/photography.html</loc>
-  <lastmod>2020-09-17T17:04:45+00:00</lastmod>
-  <priority>0.50</priority>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ocean-matt.github.io/blog_posts/blog_home.html</loc>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ocean-matt.github.io/blog_posts/2020_06_16_post.html</loc>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ocean-matt.github.io/blog_posts/2020_06_06_post.html</loc>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ocean-matt.github.io/blog_posts/2020_06_01_post.html</loc>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ocean-matt.github.io/index.html</loc>
+  <lastmod>2020-10-16T15:27:50+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 
 
