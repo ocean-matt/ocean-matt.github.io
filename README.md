@@ -1,3 +1,12 @@
+# My personal website
+This repository contains all files for my personal website. The aim of this site is to provide a hub of all my work and research-related web profiles. The blog will also share my experiences of doing a PhD. I have built this website myself: it is a "static" HTML5 website with Bootstrap, based on the free open source templates and guides by Start Bootstrap. It's cookie, tracking and advertising free, so fully GDPR compliant. The site is currently hosted by GitHub Pages.
+
+I downloaded the templates directly onto my computer from the Start Bootstrap website, which is why this repo does not show it is "forked". Almost all editing has been done on my computer, then committed/pushed to GitHub.
+
+Below is the original README details for the template.
+
+<hr>
+
 # [Start Bootstrap - Heroic Features](https://startbootstrap.com/templates/heroic-features/)
 
 [Heroic Features](https://startbootstrap.com/templates/heroic-features/) is a multipurpose HTML template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
