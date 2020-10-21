@@ -44,3 +44,8 @@ font-family: 'Open Sans', sans-serif;
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.btn {
+	margin-top: .15rem;
+	margin-bottom: .15rem;
+}
