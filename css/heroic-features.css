@@ -2,6 +2,7 @@
  * Start Bootstrap - Heroic Features (https://startbootstrap.com/templates/heroic-features)
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+ * Custom CSS by Matt Clark - Last update December 2020 with new "p.blogpost_body" and "p.image_caption" classes
  */
 body {
 font-family: 'Open Sans', sans-serif;
@@ -10,6 +11,19 @@ font-family: 'Open Sans', sans-serif;
 p {
 font-family: 'Open Sans', sans-serif;
   }
+
+p.blogpost_body {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p.image_caption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #6c757d;
+}
   
 h1 {
 font-family: 'Open Sans', sans-serif;
@@ -49,9 +63,3 @@ font-family: 'Open Sans', sans-serif;
 	margin-top: .15rem;
 	margin-bottom: .15rem;
 }
-
-div.col-lg-8 {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
