@@ -49,3 +49,9 @@ font-family: 'Open Sans', sans-serif;
 	margin-top: .15rem;
 	margin-bottom: .15rem;
 }
+
+div.col-lg-8 {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
