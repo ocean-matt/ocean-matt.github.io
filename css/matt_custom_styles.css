@@ -25,25 +25,10 @@ p.image_caption {
   color: #6c757d;
 }
   
-h1 {
+h1, h2, h3, h4, h5, h6 {
 font-family: 'Open Sans', sans-serif;
-  }
-  
-h2 {
-font-family: 'Open Sans', sans-serif;
-  }
-  
-h3 {
-font-family: 'Open Sans', sans-serif;
-  }
-  
-h4 {
-font-family: 'Open Sans', sans-serif;
-  }
-  
-h5 {
-font-family: 'Open Sans', sans-serif;
-  }
+color: #bd2130;
+}
 
 .carousel-item {
   height: 85vh;
