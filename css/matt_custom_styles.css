@@ -4,11 +4,7 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
  * Custom CSS by Matt Clark - Last update December 2020 with new "p.blogpost_body" and "p.image_caption" classes
  */
-body {
-font-family: 'Open Sans', sans-serif;
-  }
-
-p {
+body, p {
 font-family: 'Open Sans', sans-serif;
   }
 
@@ -48,3 +44,30 @@ color: #bd2130;
 	margin-top: .15rem;
 	margin-bottom: .15rem;
 }
+
+
+.accordion:after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.accordion .card-header:after {
+    font-family: "Font Awesome 5 Free";
+	content: "\f077";
+	float: right;
+	font-weight: 900;
+}
+
+.accordion .card-header.collapsed:after {
+	font-family: "Font Awesome 5 Free";
+	content: "\f078";
+	float: right;
+	font-weight: 900;
+}
+
+
+
+
