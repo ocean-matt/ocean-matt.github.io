@@ -2,8 +2,45 @@
  * Start Bootstrap - Heroic Features (https://startbootstrap.com/templates/heroic-features)
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
- * Custom CSS by Matt Clark - Last update December 2020 with new "p.blogpost_body" and "p.image_caption" classes
+ * Custom CSS by Matt Clark
+ 
+ * V2.0.1. Last update May 2022 with new colours and a custom button class that matches navbar
  */
+
+/*!
+Custom colour and navbar settings
+*/
+:root{
+    --oceanmatt-colour-rgb: rgb(101, 153, 213);
+    --oceanmatt-colour-rgba: rgba(101, 153, 213, 0.5);
+    --navbar-link-colour: rgba(255,255,255,.5);
+}
+
+.navbar-custom { 
+    background-color: var(--oceanmatt-colour-rgb);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: var(--navbar-link-colour);
+}
+
+.navbar-custom .navbar-toggler{
+	border-color: var(--navbar-link-colour);
+}
+
+.navbar-custom .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=var(--navbar-link-colour) stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.fa-bars {
+  color:var(--navbar-link-colour);
+}
+
+
+/*!
+Font settings
+*/
+
 body, p {
 font-family: 'Open Sans', sans-serif;
   }
@@ -26,6 +63,10 @@ font-family: 'Open Sans', sans-serif;
 color: #bd2130;
 }
 
+
+/*!
+Carousel
+*/
 .carousel-item {
   height: 85vh;
   min-height: 300px;
@@ -40,12 +81,9 @@ color: #bd2130;
   margin-bottom: 30px;
 }
 
-.btn {
-	margin-top: .15rem;
-	margin-bottom: .15rem;
-}
-
-
+/*!
+Accordion settings
+*/
 .accordion:after {
     display: inline-block;
     font-style: normal;
@@ -68,6 +106,45 @@ color: #bd2130;
 	font-weight: 900;
 }
 
+/*!
+New custom button class
+*/
+.btn {
+	margin-top: .15rem;
+	margin-bottom: .15rem;
+}
 
+.btn-oceanmatt {
+  color: #fff;
+  background-color: var(--oceanmatt-colour-rgb);
+  border-color: var(--oceanmatt-colour-rgb);
+}
+
+.btn-oceanmatt:hover {
+  color: #fff;
+  background-color: #1757a1;
+  border-color: #1757a1;
+}
+
+.btn-oceanmatt:focus, .btn-oceanmatt.focus {
+  box-shadow: 0 0 0 0.2rem var(--oceanmatt-colour-rgba);
+}
+
+.btn-oceanmatt.disabled, .btn-oceanmatt:disabled {
+  color: var(--oceanmatt-colour-rgb);
+  background-color: transparent;
+}
+
+.btn-oceanmatt:not(:disabled):not(.disabled):active, .btn-oceanmatt:not(:disabled):not(.disabled).active,
+.show > .btn-oceanmatt.dropdown-toggle {
+  color: #fff;
+  background-color: #1757a1;
+  border-color: #1757a1;
+}
+
+.btn-oceanmatt:not(:disabled):not(.disabled):active:focus, .btn-oceanmatt:not(:disabled):not(.disabled).active:focus,
+.show > .btn-oceanmatt.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem var(--oceanmatt-colour-rgba);
+}
 
 
