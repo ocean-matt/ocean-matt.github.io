@@ -4,16 +4,16 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
  * Custom CSS by Matt Clark
  
- * V2.0.2. Last update May 2022 with new colours and a custom button class that matches navbar
+ * V2.0.3. Last update May 2022 with new colours and a custom button class that matches navbar
  */
 
 /*!
 Custom colour and navbar settings
 */
 :root{
-    --oceanmatt-colour-rgb: rgb(101, 153, 213);
-    --oceanmatt-colour-rgba: rgba(101, 153, 213, 0.5);
-    --navbar-link-colour: rgba(255,255,255,.5);
+    --oceanmatt-colour-rgb: rgb(44 90 145);
+    --oceanmatt-colour-rgba: rgba(44 90 145, 0.5);
+    --navbar-link-colour: rgba(255,255,255,.75);
 }
 
 .navbar-custom { 
@@ -60,7 +60,7 @@ p.image_caption {
   
 h1, h2, h3, h4, h5, h6 {
 font-family: 'Open Sans', sans-serif;
-color: #1757a1;
+color: var(--oceanmatt-colour-rgb);
 }
 
 
@@ -122,8 +122,8 @@ New custom button class
 
 .btn-oceanmatt:hover {
   color: #fff;
-  background-color: #1757a1;
-  border-color: #1757a1;
+  background-color: #6589b3;
+  border-color: #6589b3;
 }
 
 .btn-oceanmatt:focus, .btn-oceanmatt.focus {
@@ -138,8 +138,8 @@ New custom button class
 .btn-oceanmatt:not(:disabled):not(.disabled):active, .btn-oceanmatt:not(:disabled):not(.disabled).active,
 .show > .btn-oceanmatt.dropdown-toggle {
   color: #fff;
-  background-color: #1757a1;
-  border-color: #1757a1;
+  background-color: #6589b3;
+  border-color: #6589b3;
 }
 
 .btn-oceanmatt:not(:disabled):not(.disabled):active:focus, .btn-oceanmatt:not(:disabled):not(.disabled).active:focus,
