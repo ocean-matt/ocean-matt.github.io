@@ -8,9 +8,9 @@
   <meta charset="utf-8">
   <meta name="url" content="https://ocean-matt.github.io/">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Personal Website for Matt Clark, PhD Researcher in Oceanography">
+  <meta name="description" content="Personal Website for Matt Clark, Research Scientist at NOC">
   <meta http-equiv='content-language' content='en-gb'>
-  <meta name="author" content="Matt Clark">
+  <meta name="author" content="Dr Matt Clark">
   <meta name="google-site-verification" content="Zcy0In4O1mx-bludv6xh_WMW4k33H8nwVJVQTDR8lvw" />
   <meta property="og:image" content="https://ocean-matt.github.io/images/matt_rapid_cropped.jpg">
   <meta name="twitter:card" content="summary">
@@ -25,9 +25,8 @@
 		"@type": "Person",
 		"givenName": "Matt",
 		"familyName": "Clark",
-		"jobTitle": "PhD Researcher/Student",
-		"funder": "SPITFIRE DTP (Doctoral Training Programme)",
-		"affiliation" : "University of Southampton"},
+		"jobTitle": "Research Scientist - Physical Oceanography",
+		"affiliation" : "National Oceanography Centre"},
 	  
 	  "url": "https://ocean-matt.github.io"
 	}
@@ -71,9 +70,9 @@
 	  
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4">
-        <h1 class="display-3">Matt Clark - Personal Website</h1>
-		<h3> SPITFIRE DTP Oceanography PhD Student, University of Southampton, National Oceanography Centre Southampton, UK. </h3>
-		<br>
+        <h1 class="display-3">Dr Matt Clark - Personal Website</h1>
+		<h3> Research Scientist - Physical Oceanography | National Oceanography Centre | Southampton, UK. </h3>
+		<!-- <br>
 		<div class="row">
 			<div class="col-lg col-md-6 mb-4">
 				<p class="lead">
@@ -87,7 +86,7 @@
 				During the weekends and my days off, you can usually find me deep in the countryside with my camera.
 				</p>
 				<a href="https://www.southampton.ac.uk/oes/postgraduate/research_students/mpc2g13.page" class="btn btn-oceanmatt btn-lg">University web profile</a>
-			</div>
+			</div> -->
 							
 			<div class="col-lg-5 col-md-6 mb-4">
 				<img class="card-img-top" src="images/matt_rapid_cropped.jpg" alt="Photo of Matt Clark on the RRS James Cook during the RAPID cruise, March 2020">
@@ -163,7 +162,7 @@
 		<hr>
 		<h2 class="card-title">About this site</h2>
 		<p class="card-text">
-		The aim of this site is to provide a hub of all my work and research-related web profiles, to better showcase myself. The blog will also share my day-to-day experiences of doing a PhD.
+		The aim of this site is to provide a hub of all my work and research-related web profiles. I also occasionally use this site to blog about research activities.
 		</p>
 		<p class="card-text"> 
 		I have built this website myself. It is a "static" HTML5 website with Bootstrap, based on the free open source templates and guides by <a href="https://startbootstrap.com/">Start Bootstrap</a>. 
@@ -180,12 +179,15 @@
   <!-- /.container -->
 
   <!-- Footer -->
-	<footer class="py-2 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Matt Clark <script>document.write( new Date().getFullYear() );</script>. All views my own.</p>
-    </div>
-    <!-- /.container -->
-    </footer>
+  <div id="footer-placeholder">
+  </div>
+  
+  <script>
+	$(function(){
+	  $("#footer-placeholder").load("footer.html");
+	});
+	</script>
+  <!-- End of footer -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

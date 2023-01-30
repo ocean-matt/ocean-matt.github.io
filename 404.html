@@ -57,13 +57,16 @@
 	
 	
 	
-	  <!-- Footer -->
-	<footer class="py-2 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Matt Clark <script>document.write( new Date().getFullYear() );</script>. All views my own.</p>
-    </div>
-    <!-- /.container -->
-    </footer>
+  <!-- Footer -->
+  <div id="footer-placeholder">
+  </div>
+  
+  <script>
+	$(function(){
+	  $("#footer-placeholder").load("footer.html");
+	});
+	</script>
+  <!-- End of footer -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://ocean-matt.github.io/vendor/jquery/jquery.min.js"></script>
