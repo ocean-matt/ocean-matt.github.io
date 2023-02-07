@@ -131,13 +131,18 @@
   </div> <!-- /.container -->
 
 
-  <!-- Footer -->
-	<footer class="py-2 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Matt Clark <script>document.write( new Date().getFullYear() );</script>. All views my own.</p>
-    </div>
-    <!-- /.container -->
-    </footer>
+<!-- Footer -->
+  <footer class="py-2 bg-dark">
+  <div id="footer-placeholder">
+  </div>
+  </footer>
+  
+  <script>
+	$(function(){
+	  $("#footer-placeholder").load("https://ocean-matt.github.io/footer.html");
+	});
+	</script>
+  <!-- End of footer -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="../vendor/jquery/jquery.min.js"></script>
